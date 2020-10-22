@@ -90,7 +90,7 @@ sub run_cmd {
             $! = 22;       # Invalid argument
             $? = 65280;    # system();print $?;
         }
-        elsif ( $@ =~ m{open3: exec of .* failed at} ) {
+        elsif ( $@ =~ m{open3: exec of .* failed\b} ) {
             $? = -1;
         }
 
@@ -239,7 +239,7 @@ sub run_cmd {
                             Carp::carp($cur_line);
                         }
 
-                        if ( $cur_line =~ m{open3: exec of .* failed at} ) {
+                        if ( $cur_line =~ m{open3: exec of .* failed\b} ) {
                             $open3_err_is_exec = 1;
                         }
                     }
