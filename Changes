@@ -3,6 +3,7 @@ Revision history for IPC-Open3-Utils
 0.92 Thu Oct 22 15:18:11 2020
     - rt 109614: fix to work w/ old and new IPC-Open3
         - thanks SREZIC, ANDK, and ilmari!
+    - change issues from rt to github
 
 0.91 Sun Dec  1 12:38:58 2013
     - rt 67389: remove handles from IO::Select when we hit their eof and close them (thanks SCOTT)

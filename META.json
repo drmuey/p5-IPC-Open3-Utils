@@ -40,5 +40,9 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.91"
+   "version" : "0.91",
+   "resources" : {
+      "bugtracker" : "https://github.com/drmuey/p5-IPC-Open3-Utils/issues",
+      "repository" : "https://github.com/drmuey/p5-IPC-Open3-Utils.git"
+   }
 }

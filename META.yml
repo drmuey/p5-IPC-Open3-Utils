@@ -23,3 +23,6 @@ requires:
   IPC::Open3: 0
   Test::More: 0
 version: 0.91
+resources:
+  bugtracker: https://github.com/drmuey/p5-IPC-Open3-Utils/issues
+  repository: https://github.com/drmuey/p5-IPC-Open3-Utils.git
